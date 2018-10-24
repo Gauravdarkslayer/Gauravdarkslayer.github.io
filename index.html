@@ -3,11 +3,12 @@
   <head>
       <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
     <Title>GAURAV resume</title>
+      <link rel="shortcut icon" href="myicon.png" /> 
         <script>
-                alert("Hello, This is Gaurav's resume");
+                //alert("Hello, This is Gaurav's resume");
                    </script>
                 
-                   <style>
+                   <style type="text/css">
                    
                      
             .thick-green-border {
@@ -18,24 +19,38 @@
              }
              h3{
                font-family: lobster;
-               font-size: 150%
+               font-size: 150%;
              }
-              .border{
+              #border{
                 
-               border:3px rgba(5, 5, 5, 0.603) dotted;
-               
-               
-             
-             }
+               border:3px rgba(39, 39, 39, 0.603) dotted;
+               height: auto;
+               }
+               .box-width{
+                width: px;
+                border: 5px solid rgba(97, 119, 167, 0.836);
+                padding: 25px;
+                margin: auto;
+                filter: drop-shadow(2px 1px 1px grey);
+                background-size: cover;
+                background-color: rgba(186, 250, 250, 0.705);
+               }
              .square {
              height: 60.2px;
              width: px;
              background-color: rgba(97, 119, 167, 0.836);
              filter: opacity(90%);
              filter: drop-shadow(2px 1px 1px grey);
+             background-image: url("https://yese69.com/wp-content/uploads/data/2017/12/10/amazing-background-images-1920x1080-notebook-WTG200125324.jpg");
+
            }
           .brightness{
             filter: brightness(120%);
+          }
+          .onlywidth{
+            width: px;
+           
+            height: 200px;
           }
            
            
@@ -43,15 +58,16 @@
   </head>      
     <body bgcolor ="#D3D3D3">
      
-        <div class ="square border">
+        <div class ="square">
+            <div id="border">
             <center>
       <img class= "thick-green-border brightness"src="https://www.sololearn.com/Icons/Avatars/4117832.jpg" alt="Error loading image" width="60px" align="centre">
       
            
       <h3>GAURAV BHOJWANI</h3>
    <!-- Address: 5-chh-15,housing board,shastri nagar ,jaipur  -->
-    Contact: 9001538511.<br>
-    Email: www.gaurav10bhojwani@gmail.com<br>
+   <i> Contact</i>: 9001538511.<br>
+    <i>Email</i>: www.gaurav10bhojwani@gmail.com<br>
     <!--<hr>------------------------------------------------------------------------------------------</hr> -->
     <hr>
     </center>
@@ -60,7 +76,7 @@
         <CAPTION><b>My qualification</b></CAPTION>
         <th>Class</th><th>Institution</th><th>Board/university</th><th>Year of passing</th><th>Percentage</th>
         <tr><td>BCA 1st year</td><td>Maharishi arvind institute of science and management</td><td>Rajasthan university</td><td>2018</td><td>78.4%</td>
-        <tr><td>12th</td><td>Bal vishwa bharti school</td><td>RBSE,Ajmer</td><td>2017</td><td>79.2%</td>
+        <tr><td>12<sup>th</sup></td><td>Bal vishwa bharti school</td><td>RBSE,Ajmer</td><td>2017</td><td>79.2%</td>
         <tr><td>10<sup>th</sup></td><td>Raj shree public school</td><td>RBSE,Ajmer</td><td>2015</td><td>72.8%</td>  
           
       </table>  
@@ -112,8 +128,8 @@
     <br>
     <br>
     <b><u>Personal Profile</u></b>
-    <ul>
-      <li>Date of Birth &ensp;&ensp;&nbsp;   :10th May 1999</li>
+    <ul class="onlywidth">
+      <li >Date of Birth &ensp;&ensp;&nbsp;   :10th May 1999</li>
       <li>Gender  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;       :Male</li>
       <li>Nationality   &ensp;&ensp;&ensp;&nbsp;  &nbsp;   :Indian</li>
       <li>Father's Name &ensp;&nbsp;       :Om Prakash Bhojwani</li>
@@ -125,7 +141,9 @@
       <br>
  <b>Declaration:</b>
         <p>I hereby declare that the details are furnished above are true and correct to the best of my knowledge.</p>
-  
+        
+        <div class="box-width ">This is for testing</div>
 </div>
+
 </body>
 </html>      
