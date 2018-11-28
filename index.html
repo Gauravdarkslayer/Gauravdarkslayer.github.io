@@ -61,6 +61,7 @@
                       border-radius: 50%;
                     }
                     </style>
+        <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
                     <script>    
                     function myFunction() {
                         var checkBox = document.getElementById("myCheck");
@@ -75,7 +76,22 @@
                         text.style.display = "none";
                         texts.style.display = "block";
                         }
-                    }                        
+                    }      
+                        //Start of FireBase
+                        
+<script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyC36doEg0j90jBYbPJo27PamhARrVikzx8",
+    authDomain: "firstwebapptest-6cee6.firebaseapp.com",
+    databaseURL: "https://firstwebapptest-6cee6.firebaseio.com",
+    projectId: "firstwebapptest-6cee6",
+    storageBucket: "firstwebapptest-6cee6.appspot.com",
+    messagingSenderId: "965438862611"
+  };
+  firebase.initializeApp(config);
+
                     </script>
                     
     </head>
